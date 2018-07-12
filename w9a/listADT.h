@@ -17,7 +17,7 @@ typedef struct{
 }listADT;
 
 void init(listADT*);
-void addList(int, int, char*);
+void addList(listADT*, int, int, char*);
 void goToHead(listADT*);
 
 #endif
